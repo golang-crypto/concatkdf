@@ -2,7 +2,7 @@
 
 A [Go](https://go.dev) (Golang for search engines) standalone implementation of NIST's [SP 800-56C](https://csrc.nist.gov/pubs/sp/800/56/c/r1/final) single-step Key Derivation Function, also known as Concatenation KDF.
 
-## How to used it?
+## How to use it?
 
 This library implements the same general format of Go's standard library [hkdf](https://pkg.go.dev/crypto/hkdf) and [pbkdf2](https://pkg.go.dev/crypto/pbkdf2) functions.
 
