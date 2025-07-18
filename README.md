@@ -28,7 +28,7 @@ if err != nil {
 
   > ⚠️ Beware using untested algorithms ⚠️
   >
-  > There may be edge cases still not properly treated, specially when entering KMAC territory.
+  > There may be edge cases still not properly treated or tested, specially when entering KMAC territory.
 
 This implementation should theoretically work with any algorithm that implements Go's standard hash.Hash interface. However, only the following algorithms have been tested (shout out to @patrickfav for sharing the test vectors for these with the community):
 
@@ -43,4 +43,8 @@ This implementation should theoretically work with any algorithm that implements
 Special thanks go to the people below:
 
 - @patrickfav for sharing with the community test vectors for some of the covered algorithms, as well as for their [Java implementation](https://github.com/patrickfav/singlestep-kdf), which served as reference for some of this Go implementation
-- the Python's [cryptography library](https://github.com/pyca/cryptography) team, which also served of reference for this implementation
+- the Python's [cryptography library](https://github.com/pyca/cryptography) team, whose work also served as reference for this implementation
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a Pull Request with new features and/or bugfixes.
